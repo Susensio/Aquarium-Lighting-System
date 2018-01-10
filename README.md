@@ -1,5 +1,7 @@
 # Aquarium Lighting System
 
+Arduino project for led aquarium lighting with lcd screen.
+
 Sublime snippet *readme* proposes a template for `README.md` files.
 Includes markdown syntax highlighter.
 ![alt text](http://cdn3.craftsy.com/blog/wp-content/uploads/2014/08/color-temp.jpg "Markdown logo")
