@@ -18,8 +18,20 @@ Includes markdown syntax highlighter.
 
 ### Prerequisites
 
-- [x] Have Sublime Text installed.
-- [ ] Create README.md file.
+#### Arduino libraries
+
+- Real Time Clock [DS3232RTC](http://github.com/JChristensen/DS3232RTC)
+- Debouncing buttons [Bounce2](https://github.com/thomasfredericks/Bounce2)
+- Dallas/Maxim 1-Wire Chips [OneWire](https://github.com/PaulStoffregen/OneWire)
+- DallasTemperature
+- Custom library for led interfacing [RGBWLed](https://github.com/Susensio/RGBWLed)
+- Modified [LCDBarGraph](https://github.com/Susensio/LcdBarGraph)
+- Modified [RotatoryEncoder](https://github.com/Susensio/RotaryEncoder)
+
+#### Hardware components
+
+- Real Time Clock DS3232RTC
+- Temperature Sensor 
 
 ## Usage
 
