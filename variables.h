@@ -44,7 +44,7 @@ enum State {
 State state;
 State stateCopy;
 
-// LCD menus
+// LCD menu state machine
 enum Menu {
   standBy,
   screen,
@@ -138,7 +138,7 @@ struct StoreStruct {
   {1000, 240},         // Sunrise
   {6100, 255},         // Sun
   {1100, 240},         // Sunset
-  {700, 100},           // Dusk
+  {700, 100},          // Dusk
   { -120, 1, 80},      // Moon
 
   // FADE TIMES IN MINUTES
@@ -169,7 +169,7 @@ struct StoreStruct {
 
 
 // LCD special characters
-byte sunRise1Char[8] = {
+const byte sunRise1Char[8] = {
   0b00000,
   0b00000,
   0b00000,
@@ -179,7 +179,7 @@ byte sunRise1Char[8] = {
   0b11111,
   0b11111
 };
-byte sunRise2Char[8] = {
+const byte sunRise2Char[8] = {
   0b00000,
   0b00000,
   0b01110,
@@ -189,7 +189,7 @@ byte sunRise2Char[8] = {
   0b01110,
   0b00000
 };
-byte sunChar[8] = {
+const byte sunChar[8] = {
   0b01110,
   0b11111,
   0b11111,
@@ -199,7 +199,7 @@ byte sunChar[8] = {
   0b00000,
   0b00000
 };
-byte moonChar[8] = {
+const byte moonChar[8] = {
   0b01000,
   0b11000,
   0b11000,
@@ -209,7 +209,7 @@ byte moonChar[8] = {
   0b00111,
   0b00000
 };
-byte maxTempChar[8] = {
+const byte maxTempChar[8] = {
   0b00100,
   0b01010,
   0b01110,
@@ -219,7 +219,7 @@ byte maxTempChar[8] = {
   0b11111,
   0b01110
 };
-byte minTempChar[8] = {
+const byte minTempChar[8] = {
   0b00100,
   0b01010,
   0b01010,
