@@ -1,3 +1,5 @@
+// Manages permanent memory storage of user settings
+
 #define CONFIG_START 0    // Start EEPROM address
 
 // Recovers system settings from EEPROM memory

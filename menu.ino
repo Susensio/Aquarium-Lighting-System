@@ -51,7 +51,7 @@ void menuUpdate() {
 
     // Main menu:
     //   ----------------
-    //   Ajustes      3/7
+    //   Ajustes      3/8
     //   Probar color
     //   ----------------
     case main: {
